@@ -1,1 +1,13 @@
+# Dependencies installed locally.
+node_modules/
+
+# macOS Finder metadata.
+.DS_Store
+
+# Harness output directory.
 output/
+
+# Logs produced while testing locally.
+*.log
+
+# The toaster's crumbs stay local: anything baked during a test run is not committed.
